@@ -7,17 +7,18 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
+import './shop.css'
 
 const Shop = (props) => {
     const {name,price,img} =props.shopdata;
-    console.log(props.shopdata);
+    console.log(props);
     return (
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={3}>
              <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         alt="green iguana"
-        height="300"
+        height="250"
         image={img}
       />
       <CardContent>
@@ -35,6 +36,7 @@ const Shop = (props) => {
         </Typography>
       </CardContent>
       <CardActions>
+       
         <Button size="small">Share</Button>
         <Button size="small">Learn More</Button>
       </CardActions>
