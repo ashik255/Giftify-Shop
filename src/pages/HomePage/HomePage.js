@@ -1,10 +1,12 @@
 import React from 'react';
-import Shop from '../../components/Shop/Shop';
+// import Navigation from '../../Shared/Navigation/Navigation';
+import TopBar from '../TopBar/TopBar';
 
 const HomePage = () => {
     return (
         <div>
-            
+            {/* <Navigation/> */}
+            <TopBar/>
         </div>
     );
 };
