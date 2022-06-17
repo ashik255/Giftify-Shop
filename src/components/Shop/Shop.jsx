@@ -10,9 +10,10 @@ import Grid from '@mui/material/Grid';
 import './shop.css'
 
 const Shop = (props) => {
-    const {name,price,img} =props.shopdata;
-    console.log(props);
+    const {name,price,img} =props.products;
+    console.log(props.products);
     return (
+      
         <Grid item xs={12} sm={6} md={3}>
              <Card sx={{ maxWidth: 345 }}>
       <CardMedia
