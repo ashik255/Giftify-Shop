@@ -1,6 +1,5 @@
 import { Button, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-
 import "./shop.css";
 
 const Shop = (props) => {
