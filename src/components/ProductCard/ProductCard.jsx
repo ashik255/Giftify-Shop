@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
-//import Shop from '../Shop/Shop';
+import Shop from "../Shop/Shop";
 import Shop from "../../components/Shop/Shop";
 
 const ProductCard = () => {
