@@ -10,14 +10,14 @@ const Banner = () => {
     return (
     
         <Row> 
-            <div>
+            <div className='navigation'>
             <Navigation/>
             </div>
         
    
             <div className='banner-bg'>
                 <div style={{textAlign:'center'}}>
-                  <Button className='button'>Home</Button><span>|</span><Button  className='button'>Shop</Button>
+                <a href="#"style={{outline:'none',color:'white'}} >Button without border</a>
                     <h1>Shop</h1>
                     <p>Find beautiful gifts for you and your loved ones; and customize them as you want them to be.</p>
                 </div>
