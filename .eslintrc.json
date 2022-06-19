@@ -1,23 +1,33 @@
 {
+  "extends": ["airbnb", "plugin:prettier/recommended"],
   "env": {
-    "browser": true,
-    "es2021": true,
-    "jest": true
+    "jest": true,
+    "browser": true
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended"
-  ],
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": 12,
-    "sourceType": "module"
-  },
-  "plugins": ["react"],
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "off",
+    "no-confusing-arrow": "off",
+    "linebreak-style": "off",
+    "arrow-parens": ["error", "as-needed"],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "ignore"
+      }
+    ],
+    "no-plusplus": "off"
+  },
+  "parser": "@babel/eslint-parser",
+  "plugins": ["prettier"],
+  "globals": {
+    "browser": true,
+    "$": true,
+    "before": true,
+    "document": true
   }
 }

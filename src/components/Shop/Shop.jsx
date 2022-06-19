@@ -4,7 +4,7 @@ import "./shop.css";
 
 const Shop = (props) => {
   const { name, price, img } = props.products;
-  console.log(props.products);
+  // console.log(props.products);
   return (
     <Col>
       <Card style={{ minHeight: "500px" }}>
