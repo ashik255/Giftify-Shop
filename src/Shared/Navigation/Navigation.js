@@ -11,64 +11,22 @@ const Navigation = () => {
   return (
     <div className="text-center">
       <div className="pt-4">
-        <Link
-          style={{
-            textDecoration: "none",
-            paddingRight: "10px",
-            color: "white",
-          }}
-          to="/home"
-        >
+        <Link style={{ textDecoration: "none", paddingRight:'10px', color:'black' }} to="/home">
           HOME
         </Link>
-        <Link
-          style={{
-            textDecoration: "none",
-            paddingRight: "10px",
-            color: "white",
-          }}
-          to="/shop"
-        >
+        <Link style={{ textDecoration: "none", paddingRight:'10px', color:'black' }} to="/shop">
           SHOP
         </Link>
-        <Link
-          style={{
-            textDecoration: "none",
-            paddingRight: "10px",
-            color: "white",
-          }}
-          to="/aura"
-        >
+        <Link style={{ textDecoration: "none", paddingRight:'10px',color:'black' }} to="/aura">
           AURA
         </Link>
-        <Link
-          style={{
-            textDecoration: "none",
-            paddingRight: "10px",
-            color: "white",
-          }}
-          to="/blog"
-        >
+        <Link style={{ textDecoration: "none", paddingRight:'10px', color:'black' }} to="/blog">
           BLOG
         </Link>
-        <Link
-          style={{
-            textDecoration: "none",
-            paddingRight: "10px",
-            color: "white",
-          }}
-          to="/partners"
-        >
+        <Link style={{ textDecoration: "none", paddingRight:'10px', color:'black' }} to="/partners">
           OUR PARTNERS
         </Link>
-        <Link
-          style={{
-            textDecoration: "none",
-            paddingRight: "10px",
-            color: "white",
-          }}
-          to="/about"
-        >
+        <Link style={{ textDecoration: "none", paddingRight:'10px', color:'black' }} to="/about">
           ABOUT US
         </Link>
         <Link style={{ paddingRight: "10px" }}>

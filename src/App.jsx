@@ -1,8 +1,8 @@
 import "./App.css";
-import About from "./pages/AboutUs/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
+import About from "./pages/AboutUs/About";
 import ProductCard from "./components/ProductCard/ProductCard";
+import Banner from "./components/Shop/Banner/Banner";
 import HomePage from "./pages/HomePage/HomePage";
 
 function App() {
@@ -17,6 +17,9 @@ function App() {
         </Route>
         <Route path="/home">
           <HomePage></HomePage>
+        </Route>
+        <Route path="/shop">
+          <Banner></Banner>
         </Route>
         <Route path="/shop">
           <ProductCard></ProductCard>
