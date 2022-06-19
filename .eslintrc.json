@@ -4,7 +4,9 @@
     "jest": true,
     "browser": true
   },
+  
   "rules": {
+    "requireConfigFile": false,
     "import/no-extraneous-dependencies": "off",
     "import/prefer-default-export": "off",
     "no-confusing-arrow": "off",
@@ -23,11 +25,13 @@
     "no-plusplus": "off"
   },
   "parser": "@babel/eslint-parser",
-  "plugins": ["prettier"],
+  "plugins": ["react"],
   "globals": {
     "browser": true,
     "$": true,
     "before": true,
     "document": true
   }
+  
 }
+
