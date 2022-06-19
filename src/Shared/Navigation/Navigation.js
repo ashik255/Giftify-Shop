@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import LocalMallIcon from '@mui/icons-material/LocalMall';
-import SearchIcon from '@mui/icons-material/Search';
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import LocalMallIcon from "@mui/icons-material/LocalMall";
+import SearchIcon from "@mui/icons-material/Search";
 import "./Navigation.css";
 import { pink } from "@mui/material/colors";
 
@@ -29,10 +29,18 @@ const Navigation = () => {
         <Link style={{ textDecoration: "none", paddingRight:'10px', color:'black' }} to="/about">
           ABOUT US
         </Link>
-        <Link style={{paddingRight:'10px'}}><AccountCircleIcon sx={{ color: pink[500] }}/></Link>
-        <Link style={{paddingRight:'10px'}}><FavoriteIcon sx={{ color: pink[500] }}/></Link>
-        <Link style={{paddingRight:'10px'}}><LocalMallIcon sx={{ color: pink[500] }}/></Link>
-        <Link style={{paddingRight:'10px'}}><SearchIcon sx={{ color: pink[500] }}/></Link>
+        <Link style={{ paddingRight: "10px" }}>
+          <AccountCircleIcon sx={{ color: pink[500] }} />
+        </Link>
+        <Link style={{ paddingRight: "10px" }}>
+          <FavoriteIcon sx={{ color: pink[500] }} />
+        </Link>
+        <Link style={{ paddingRight: "10px" }}>
+          <LocalMallIcon sx={{ color: pink[500] }} />
+        </Link>
+        <Link style={{ paddingRight: "10px" }}>
+          <SearchIcon sx={{ color: pink[500] }} />
+        </Link>
       </div>
     </div>
   );

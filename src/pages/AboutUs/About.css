@@ -1,0 +1,37 @@
+.about{
+   background-image: url('https://upohar.xyz/wp-content/uploads/2022/02/Black-cover.jpg');
+  
+}
+.about-col h1{
+   font-weight: bold;
+   font-size: 3.5em;
+   font-family:'Times New Roman', Times, serif;
+   color: rgb(197, 170, 170);
+   padding-top:160px;
+   margin: 0;
+}
+.back-image{
+   background-image: url('https://upohar.xyz/wp-content/themes/zass/image/ripoff.png');
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size:cover;
+   /* border: 3px solid rgb(223, 223, 223); */
+   
+}
+.about-last{
+   background-image: url('https://upohar.xyz/wp-content/uploads/2016/12/zass_main_hero1.jpg?id=284.webp');
+   height:400px;
+}
+.We-do {
+   font-family:cursive;
+   line-height:25px;
+   letter-spacing:.385;
+
+}
+.card-review{
+   background-color:white;
+   margin:10px;
+   margin-top: 95px;
+   height:180px;
+   width:250px;
+}
