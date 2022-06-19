@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-import './App.css';
-import About from './pages/AboutUs/About';
-
-
-function App() {
-  return (
-   <About></About> 
-=======
+import "./App.css";
+import About from "./pages/AboutUs/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import ProductCard from "./components/ProductCard/ProductCard";
@@ -19,6 +12,9 @@ function App() {
         <Route exact path="/">
           <HomePage></HomePage>
         </Route>
+        <Route exact path="about">
+          <About></About>
+        </Route>
         <Route path="/home">
           <HomePage></HomePage>
         </Route>
@@ -27,7 +23,6 @@ function App() {
         </Route>
       </Switch>
     </Router>
->>>>>>> 9c4a9b30fd62b715554bbf4d6095fd423f8b4d8e
   );
 }
 
