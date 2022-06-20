@@ -1,0 +1,7 @@
+.policy-card:hover{
+    box-shadow: 0 0 11px rgba(17, 15, 15, 0.37)!important; 
+    transform: scale(1.02)
+}
+.policy-card{
+    transition: .3s;
+}

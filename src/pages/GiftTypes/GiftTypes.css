@@ -1,0 +1,46 @@
+.types-img{
+    overflow: hidden;
+    text-align: center;
+    
+}
+.types-img img{
+    display: inline-block;
+    transition: all 1.2s ease-in-out;
+}
+.types-img:hover img{
+    transform: scale(1.2);
+}
+.contain{
+    position: relative;
+    text-align: right;
+  }
+.contain2{
+    position: relative;
+    text-align: right;
+  }
+.type-details{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+.type-details2{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    /* transform: translate(-50%, -50%); */
+}
+.type-details3{
+    position: absolute;
+    top: 50%;
+    right: 70%;
+    transform: translate(-50%, -50%);
+}
+.type-details4{
+    position: absolute;
+    top: 65%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+}
+
+  

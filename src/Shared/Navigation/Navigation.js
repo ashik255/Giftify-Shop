@@ -5,7 +5,6 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 import SearchIcon from '@mui/icons-material/Search';
 import "./Navigation.css";
-import { pink } from "@mui/material/colors";
 
 const Navigation = () => {
   return (
@@ -29,10 +28,10 @@ const Navigation = () => {
         <Link style={{ textDecoration: "none", paddingRight:'10px', color:'white' }} to="/about">
           ABOUT US
         </Link>
-        <Link style={{paddingRight:'10px'}}><AccountCircleIcon sx={{ color: pink[500] }}/></Link>
-        <Link style={{paddingRight:'10px'}}><FavoriteIcon sx={{ color: pink[500] }}/></Link>
-        <Link style={{paddingRight:'10px'}}><LocalMallIcon sx={{ color: pink[500] }}/></Link>
-        <Link style={{paddingRight:'10px'}}><SearchIcon sx={{ color: pink[500] }}/></Link>
+        <Link style={{paddingRight:'10px'}} className="text-light"><AccountCircleIcon/></Link>
+        <Link style={{paddingRight:'10px'}} className="text-light"><FavoriteIcon/></Link>
+        <Link style={{paddingRight:'10px'}} className="text-light"><LocalMallIcon/></Link>
+        <Link style={{paddingRight:'10px'}} className="text-light"><SearchIcon/></Link>
       </div>
     </div>
   );
