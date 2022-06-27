@@ -11,17 +11,14 @@
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 .button {
-    background-color:rgb(255, 255, 255);
-    border: none;
-    color: rgb(224, 209, 209);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    background:none;
+    border:none;
+    color: white;
+    margin:0;
+    padding:0;
     cursor: pointer;
   }
   h1 {
@@ -51,3 +48,11 @@
       animation: animtext 4s steps(80, end); 
        transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
   }
+.refine-products{
+     margin-top: 2%;
+     margin-left: 5rem;
+   
+}
+.inline{
+  margin-right: 10rem;
+}

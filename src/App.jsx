@@ -7,7 +7,8 @@ import ShopPage from "./pages/ShopPage/ShopPage";
 
 function App() {
   return (
-    <Router>
+    <div className="overflow-hidden">
+      <Router>
       <Switch>
         <Route exact path="/">
           <HomePage></HomePage>
@@ -23,6 +24,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
+    </div>
   );
 }
 
