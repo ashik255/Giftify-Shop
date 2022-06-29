@@ -1,0 +1,7 @@
+.partners-bg{
+    background-image: url('../../images/suzon/111.jpg');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}

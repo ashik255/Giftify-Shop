@@ -1,0 +1,16 @@
+.newArrival-bg{
+    background-image: url('../../images/suzon/rose-overlay.png');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.newItems-link{
+    border-style: dashed;
+    border-radius: 30px;
+    padding: 8px 15px 8px 15px;
+    color: rgb(221,126,126);
+}
+.newItems-link:hover{
+    color: rgb(221,126,126);
+}

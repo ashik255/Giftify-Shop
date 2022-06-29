@@ -20,7 +20,7 @@ const Navigation = () => {
           AURA
         </Link>
         <Link style={{ textDecoration: "none", paddingRight:'10px', color:'white' }} to="/blog">
-          BLOG
+          UPOHAR BLOG
         </Link>
         <Link style={{ textDecoration: "none", paddingRight:'10px', color:'white' }} to="/partners">
           OUR PARTNERS

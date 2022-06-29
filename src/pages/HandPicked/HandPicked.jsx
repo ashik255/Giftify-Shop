@@ -10,7 +10,6 @@ const HandPicked = ({ feature, onsale, bestsell }) => {
   const [newData, setNewData] = useState([]);
 
   useEffect(() => {
-    console.log(feature?.slice(0, 3));
     if (key === "featured") setNewData(feature?.slice(0, 3));
     else if (key === "onSell") setNewData(feature?.slice(3, 6));
     else if (key === "bestSeller") setNewData(feature?.slice(6, 9));
