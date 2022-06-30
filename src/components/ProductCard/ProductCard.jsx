@@ -15,9 +15,7 @@ const ProductCard = () => {
     <div className="border-black">
       <Container className="">
         <Row xs={2} md={4} className="g-3">
-          {product.map((products) => (
-            <Shop products={products}></Shop>
-          ))}
+            <Shop products={product}/>
         </Row>
       </Container>
     </div>
