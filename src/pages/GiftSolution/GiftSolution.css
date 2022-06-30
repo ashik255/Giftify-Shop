@@ -1,0 +1,26 @@
+.type-animation{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(221,126,126);
+}
+.giftify-img{
+    overflow: hidden;
+    text-align: center;
+    
+}
+.giftify-img img{
+    display: inline-block;
+    transition: all 1.2s ease-in-out;
+}
+.giftify-img:hover img{
+    transform: scale(1.5);
+}
+.gift-details{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}

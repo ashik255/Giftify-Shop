@@ -1,9 +1,11 @@
 import React from "react";
 import About from "./pages/AboutUs/About";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ProductCard from "./components/ProductCard/ProductCard";
 import HomePage from "./pages/HomePage/HomePage";
 import ShopPage from "./pages/ShopPage/ShopPage";
+import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 
 function App() {
   return (

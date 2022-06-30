@@ -1,0 +1,17 @@
+.customize-bg{
+    background-image: url('../../images/suzon/customize-gift.jpg');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+.customize-link{
+    border-style: dashed;
+    border-radius: 30px;
+    padding: 8px 15px 8px 15px;
+    color: black;
+}
+.customize-link:hover {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+}

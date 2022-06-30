@@ -1,0 +1,12 @@
+.footer-img{
+    background-image: url('../../images/suzon/0ld-bg1.jpg');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+}
+.footerImg-bg{
+    background: rgb(0, 0, 0);
+    background: rgba(117, 117, 117, 0.5);
+}
